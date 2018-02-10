@@ -12,7 +12,7 @@ class Dog
   end
 
   def self.all
-    puts @@all.name
+    @@all.each{|element| puts "#{elements.name}"}
   end
 
 end
